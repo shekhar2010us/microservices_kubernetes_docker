@@ -19,7 +19,7 @@ Go to the shopfront project folder, build the maven project to create jar and bu
 <br>
 `cd microservices_kubernetes_docker/shopfront/`
 <br>
-`mvn clean install`
+`mvn clean install -DskipTests`
 <br>
 `docker build -t shekhar/shopfront:1.0 .`
 <br>
@@ -29,7 +29,7 @@ Go to the productcatalogue project folder, build the maven project to create jar
 <br>
 `cd ../productcatalogue/`
 <br>
-`mvn clean install`
+`mvn clean install -DskipTests`
 <br>
 `docker build -t shekhar/productcatalogue:1.0 .`
 <br>
@@ -39,7 +39,7 @@ Go to the stockmanager project folder, build the maven project to create jar and
 <br>
 `cd ../stockmanager/`
 <br>
-`mvn clean install`
+`mvn clean install -DskipTests`
 <br>
 `docker build -t shekhar/stockmanager:1.0 .`
 <br>
