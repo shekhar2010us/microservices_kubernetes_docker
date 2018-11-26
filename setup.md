@@ -139,3 +139,10 @@ Alternatively, we can test this in browser
 <br>Port: `kubectl describe svc/shopfront | grep -i nodeport`
 <br>`http://<AWS Machine IP>:<Port>/products`
 <br>
+
+
+Now let's clean up
+```
+kubectl delete --all svc,deploy,pod,hpa --namespace=default
+
+```
