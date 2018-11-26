@@ -5,7 +5,7 @@
 ### Step 1: Update apt-get and install necessary packages
 Update the apt-get package manager and install necessary packages in the machine
 <br>
-`apt-get update && apt-get install -y maven git tree default-jdk`
+`sudo apt-get update && apt-get install -y maven git tree default-jdk`
 <br>
 
 ### Step 2: Clone the git project
