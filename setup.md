@@ -143,6 +143,6 @@ Alternatively, we can test this in browser
 
 Now let's clean up
 ```
-kubectl delete --all svc,deploy,pod,hpa --namespace=default
+kubectl delete --all svc,rc,deploy,pod,hpa --namespace=default
 
 ```
